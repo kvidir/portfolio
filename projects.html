@@ -1,25 +1,51 @@
-<main class="projects">
-  <h1>Projects</h1>
-  <section class="project-list">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Vidir Helgi Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-logo">Vidir Helgi Portfolio</div>
+      <button class="navbar-toggle" id="menu-toggle">☰</button>
+      <ul class="navbar-links" id="navbar-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About Vidir</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
 
-    <article class="project">
-      <img src="assets/images/project1.png" alt="Screenshot of Project 1">
-      <h2>Weather App</h2>
-      <p>A real-time weather app built using the OpenWeather API and React.</p>
-      <p><strong>Tech:</strong> React, CSS Modules, API</p>
-      <a href="https://github.com/vidirhelgi/weather-app" target="_blank">GitHub Repo</a>
-      <a href="https://weather-by-vidir.netlify.app" target="_blank">Live Demo</a>
-    </article>
+    <main class="projects">
+      <h1>My Projects</h1>
 
-    <article class="project">
-      <img src="assets/images/project2.png" alt="Screenshot of Project 2">
-      <h2>Todo List</h2>
-      <p>Minimalist to-do list with local storage support and filter options.</p>
-      <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
-      <a href="https://github.com/vidirhelgi/todo-app" target="_blank">GitHub Repo</a>
-      <a href="https://vidirhelgi-todo.netlify.app" target="_blank">Live Demo</a>
-    </article>
+      <section class="project-card">
+        <h2>Agatech Ecosystem</h2>
+        <p>Agatech is a full ecosystem of decentralized products created to empower individuals in the Web3 space. I built it from the ground up after learning smart contract development, and continue to grow it with tools, services, and utility.</p>
+        <a href="https://agatech.io" target="_blank">Visit Agatech.io</a>
+      </section>
 
-    <!-- Add more projects similarly -->
-  </section>
-</main>
+      <section class="project-card">
+        <h2>Lambro Token</h2>
+        <p>Lambro was my first dive into blockchain technology — a cryptocurrency token that led to the creation of Agatech. It helped me understand tokenomics, Solidity, and how to build decentralized trust.</p>
+        <a href="https://lambro.io" target="_blank">Visit Lambro.io</a>
+      </section>
+
+      <section class="project-card">
+        <h2>Mini Arcade: Number Guesser</h2>
+        <p>This is a web-based arcade app featuring multiple mini-games. It helped me sharpen my JavaScript, DOM, and frontend skills. Currently includes 7 playable games, with more to come!</p>
+        <a href="https://kvidir.github.io/numberguesser/" target="_blank">Play the games</a> |
+        <a href="https://github.com/kvidir/numberguesser" target="_blank">View the code on GitHub</a>
+      </section>
+
+      <section class="project-note">
+        <p><em>More projects will be added here as I continue my full-stack journey.</em></p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
