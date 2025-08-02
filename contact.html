@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Vidir Helgi Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-logo">Vidir Helgi Portfolio</div>
+      <button class="navbar-toggle" id="menu-toggle">☰</button>
+      <ul class="navbar-links" id="navbar-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About Vidir</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main class="contact">
+      <h1>Contact Me</h1>
+
+      <section class="contact-form">
+        <form action="#" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+        <p class="note">Backend integration coming soon.</p>
+      </section>
+
+      <section class="contact-info">
+        <h2>Other Ways to Reach Me</h2>
+        <ul>
+          <li>Email: <a href="mailto:vidirhelgi@gmail.com">vidirhelgi@gmail.com</a></li>
+          <li>Twitter/X: <a href="https://twitter.com/notoriousmonsi" target="_blank">@notoriousmonsi</a></li>
+          <li>GitHub: <a href="https://github.com/kvidir" target="_blank">github.com/kvidir</a></li>
+        </ul>
+      </section>
+
+      <section class="resume">
+        <a href="assets/resume.pdf" download class="cta-button">Download Resume (coming soon)</a>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
